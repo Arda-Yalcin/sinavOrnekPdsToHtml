@@ -27,11 +27,11 @@
 }
 
 /*! Header */
-header{color: #3a291b; }
+header{color: #3a291b; position: relative; z-index: 13; }
 
 header > .logo{
     float: left;
-    padding-left: 10px;
+    padding-left: 40px;
     padding-top: 10px;
     
 }
@@ -62,19 +62,18 @@ header > .menu{float: right;}
 
 /*! section  */
 .row>section{
+    margin-top: -190px;
        height: 730px;
     background-color: #ffc657;
     background-image: url(../resimler/resim.png);
     background-repeat: no-repeat;
     background-position: right; 
-    margin-right: 60px; 
-    margin-top:-200px;
+    position: relative;
 }
 .sectionText{
     font-weight: 500;
     padding-top:300px;
     color:#3a291b;
-    
 }
 .sectionText h1{
     font-size:140px;
@@ -94,6 +93,42 @@ header > .menu{float: right;}
     margin-left: 50px;
     margin-right: 1030px;
     padding: 8px;
-    margin-bottom:-20px;
-
+    position: absolute;
+    top:280px;
+}
+section .ticket{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left:750px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+section .ticketBorder{
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-left:760px;
+    margin-top:10px;
+    border:3px dashed white;
+    border-style: dashed;
+}
+section .ticketText{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color:white;
+}
+section .ticketText h1{
+    float:left;
+    font-size: 50px;
+}
+section .ticketText h1 span{
+    font-size: 20px;
+}
+section .ticketText p{
+    float:unset;
+    font-size:20px;
 }
