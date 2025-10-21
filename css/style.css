@@ -73,15 +73,27 @@ header > .menu{float: right;}
 .sectionText{
     font-weight: 500;
     padding-top:300px;
-    text-shadow: 4px 4px wheat;
+    color:#3a291b;
     
 }
 .sectionText h1{
-     font-size:100px;
+    font-size:140px;
     margin-left:50px;
+    text-shadow: 4px 4px wheat;
+    margin-bottom: -30px;
 }
 .sectionText h2{
-    font-size:80px;
+    font-size:100px;
     margin-left:50px;
+    text-shadow: 4px 4px wheat;
+    
+}
+.sectionText p{
+    border: 1px dashed black;
+    font-weight: 10;
+    margin-left: 50px;
+    margin-right: 1030px;
+    padding: 8px;
+    margin-bottom:-20px;
 
 }
