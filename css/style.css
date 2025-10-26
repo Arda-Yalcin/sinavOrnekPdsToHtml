@@ -26,7 +26,7 @@
     content: ""; display: block; clear: both;
 }
 
-/*! Header */
+/*? Header */
 header{color: #3a291b; position: relative; z-index: 13; }
 
 header > .logo{
@@ -40,7 +40,7 @@ header > .logo2{
 }
 
 
-/*! menu */
+/*? menu */
 header > .menu{float: right;}
 .menu ul{
     list-style: none;
@@ -60,7 +60,7 @@ header > .menu{float: right;}
     padding-bottom: 8px;
 }
 
-/*! section  */
+/*? section  */
 .row>section{
     margin-top: -190px;
        height: 730px;
