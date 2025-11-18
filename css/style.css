@@ -63,7 +63,7 @@ header > .menu{float: right;}
 /*? section  */
 .row>section{
     margin-top: -190px;
-       height: 730px;
+    height: 730px;
     background-color: #ffc657;
     background-image: url(../resimler/resim.png);
     background-repeat: no-repeat;
